@@ -12,7 +12,7 @@ body {
 }
 
 header {
-  background: #162511; 
+  background: #162511;
   color: white;
   padding: 10px 0;
   position: fixed;
@@ -34,8 +34,8 @@ header .container {
 }
 
 .nav-link {
-  width:40px;
-  height:40px;
+  width: 40px;
+  height: 40px;
 }
 
 #header-img {
@@ -53,7 +53,6 @@ header .container {
 }
 
 #navbar nav ul li a {
-  color: white;
   text-decoration: none;
   font-weight: bold;
   font-style: italic;
@@ -63,6 +62,13 @@ header .container {
 
 #projects .project-tile h3 {
   color: #4a90e2;
+}
+
+#projects .project-tile a {
+  color: #223215;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
 }
 
 #navbar nav ul li a:hover {
@@ -113,13 +119,6 @@ h2 {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   text-align: center;
   margin-bottom: 20px;
-}
-
-#projects .project-tile a {
-  color: #223215;
-  text-decoration: none;
-  font-weight: bold;
-  transition: color 0.3s ease;
 }
 
 #projects .project-tile a:hover {
