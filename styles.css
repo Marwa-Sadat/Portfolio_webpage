@@ -164,7 +164,7 @@ footer {
 }
 
 @media (max-width: 768px) {
-  container {
+  .container {
     width: 90%;
   }
 
@@ -180,5 +180,4 @@ footer {
   #welcome-section {
     padding: 40px 20px;
   }
-
 }
