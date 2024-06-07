@@ -22,11 +22,21 @@ header {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+.container {
+  width: 80%;
+  margin: auto;
+}
+
 header .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+}
+
+.nav-link {
+  width: 40px;
+  height: 40px;
 }
 
 #header-img {
@@ -46,11 +56,17 @@ header .container {
 }
 
 #navbar nav ul li a {
-  color: white;
   text-decoration: none;
   font-weight: bold;
   font-style: italic;
   color: #516b1c;
+  transition: color 0.3s ease;
+}
+
+#projects .project-tile a {
+  color: #223215;
+  text-decoration: none;
+  font-weight: bold;
   transition: color 0.3s ease;
 }
 
@@ -76,6 +92,10 @@ header .container {
   color: #fff;
 }
 
+footer p {
+  margin: 0;
+}
+
 #welcome-section p {
   font-size: 1.2em;
   font-style: italic;
@@ -86,11 +106,6 @@ section {
   padding: 60px 20px;
 }
 
-.container {
-  width: 80%;
-  margin: auto;
-}
-
 h2 {
   text-align: center;
   margin-bottom: 20px;
@@ -98,7 +113,7 @@ h2 {
 }
 
 #projects .project-tile {
-  background: #E1E8E3;
+  background: #e1e8e3;
   padding: 20px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   text-align: center;
@@ -106,18 +121,11 @@ h2 {
 }
 
 #projects .project-tile h3 {
-  color: #4A90E2;
-}
-
-#projects .project-tile a {
-  color: #223215;
-  text-decoration: none;
-  font-weight: bold;
-  transition: color 0.3s ease;
+  color: #4a90e2;
 }
 
 #projects .project-tile a:hover {
-  color: #4A90E2;
+  color: #4a90e2;
 }
 
 #contact form {
@@ -130,13 +138,13 @@ h2 {
   padding: 10px;
   margin-bottom: 10px;
   width: 300px;
-  border: 1px solid #4A90E2;
+  border: 1px solid #4a90e2;
   border-radius: 4px;
 }
 
 #contact input[type="submit"] {
   padding: 10px 20px;
-  background: #4A90E2;
+  background: #4a90e2;
   color: white;
   border: none;
   cursor: pointer;
@@ -145,7 +153,7 @@ h2 {
 }
 
 #contact input[type="submit"]:hover {
-  background: #1C3E6B;
+  background: #1c3e6b;
 }
 
 footer {
@@ -153,10 +161,6 @@ footer {
   color: rgb(97, 121, 103);
   text-align: center;
   padding: 20px 0;
-}
-
-footer p {
-  margin: 0;
 }
 
 @media (max-width: 768px) {
@@ -172,4 +176,15 @@ footer p {
   #navbar nav ul li {
     margin: 10px 0;
   }
+<<<<<<< HEAD
+=======
+
+  #welcome-section {
+    padding: 40px 20px;
+  }
+
+  .container {
+    width: 90%;
+  }
+>>>>>>> 147817f2bae9e14678f1727793ccf4b912eb7c82
 }
