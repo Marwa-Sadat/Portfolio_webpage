@@ -12,7 +12,7 @@ body {
 }
 
 header {
-  background: #162511; 
+  background: #162511;
   color: white;
   padding: 10px 0;
   position: fixed;
@@ -26,6 +26,7 @@ header .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 #header-img {
@@ -36,6 +37,7 @@ header .container {
 #navbar nav ul {
   list-style: none;
   display: flex;
+  flex-wrap: wrap;
   padding: 0;
 }
 
@@ -158,19 +160,16 @@ footer p {
 }
 
 @media (max-width: 768px) {
+  .container {
+    width: 90%;
+  }
+
   #navbar nav ul {
     flex-direction: column;
+    align-items: center;
   }
 
   #navbar nav ul li {
     margin: 10px 0;
-  }
-
-  #welcome-section {
-    padding: 40px 20px;
-  }
-
-  .container {
-    width: 90%;
   }
 }
