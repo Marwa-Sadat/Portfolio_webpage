@@ -8,17 +8,61 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    /* CSS Styles */
+    body {
+      margin: 0;
+      font-family: 'Cairo', sans-serif;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 20px;
+      box-sizing: border-box;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+    }
+
+    p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+    }
+
+    .project-tile {
+      margin-bottom: 30px;
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        padding: 0 10px;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        max-width: 720px;
+      }
+    }
+
+    @media (max-width: 992px) {
+      .container {
+        max-width: 960px;
+      }
+    }
+  </style>
 </head>
 <body>
   <header id="navbar">
     <div class="container">
-      <img id="header-img" src="https://cdn.pixabay.com/photo/2022/01/30/13/33/github-6980894_1280.png" alt="Logo">
       <nav>
         <ul>
-          <li><a href="#welcome-section" class="nav-link"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbM7o3PZoZeSOevxDBovsk_oo59RPSnEAJWA&s" alt="Home Icon">Home</a></li>
-          <li><a href="#projects" class="nav-link"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbM7o3PZoZeSOevxDBovsk_oo59RPSnEAJWA&s" alt="Project Icon">Projects</a></li>
-          <li><a href="#contact" class="nav-link"><img src="https://st.depositphotos.com/1570716/4101/i/450/depositphotos_41018917-stock-photo-businessman-push-to-contact-us.jpg" alt="Contact Icon">Contact</a></li>
-          <li><a href="https://github.com/yourusername" id="profile-link" target="_blank"><img src="https://i.pinimg.com/736x/8d/f7/c8/8df7c8f673c3b7914d799592cea2a67e.jpg" alt="Profile Icon">Profile</a></li>
+          <li><a href="#welcome-section" class="nav-link">Home</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+          <li><a href="https://github.com/yourusername" id="profile-link" target="_blank">Profile</a></li>
         </ul>
       </nav>
     </div>
